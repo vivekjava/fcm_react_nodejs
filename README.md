@@ -2,9 +2,9 @@
 
 ### Steps : 
 
- 	1. Step 1 : Read projectui/**Projectui - 3bees.MD** and run UI project.
+ 	1. Step 1 : Read projectui/README.MD and run UI project.
       	1. It has to run first then only you can able to get clienttoken from UI.
- 	2. Step 2 : Read projectbackend/**Projectbackend - 3bees.MD** and run Backend project.
+ 	2. Step 2 : Read projectbackend/README.MD and run Backend project.
 
 
 
