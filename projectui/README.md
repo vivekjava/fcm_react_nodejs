@@ -1,68 +1,49 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Projectui - 3bees.io
 
-## Available Scripts
+### Objective : 
 
-In the project directory, you can run:
+ 	1. Show list of Items in a listview and frontend should have the capability of receiving push notification.
+ 	2. Showing Client Token.
+ 	3. Should support Refresh Page Action &  Clear Page Action.
 
-### `npm start`
+### Pre-requirement :
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+​	Before start running the project these are the mandatory steps has to be followed.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+  		1. Enter command to pull all the npm modules
+         		1. **npm install**
+		2. Change the fcm-client credentials in the config.js. (Location : projectui\src\config\config.js)
+		3.  Change the message messagingSenderId in the firebase-messaging-sw.js (Location  : projectui\public\firebase-messaging-sw.js).
+		4. Finally your ready to go with
+     		1. CMD >  **npm start**
+		5. Copy the Client Token And paste it in the under nodejs backend project -> config.yaml -> clienttoken
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Sample Image : 
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. While starting our APP.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+​	![](E:\workspace\testproject\projectui\emptylist.PNG)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Notification push message.
 
-### `npm run eject`
+   ![](E:\workspace\testproject\projectui\pushmessage.PNG)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+3. List Items
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ![](E:\workspace\testproject\projectui\listwithItem.PNG)
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+   4.Exception case
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+   ![](E:\workspace\testproject\projectui\exceptionhandling.PNG) 
 
-## Learn More
+   5. List overflow
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+      ![](E:\workspace\testproject\projectui\overflow_list.PNG)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### (#NOTE : Don't change REACTJS project port,Because CORS Handled for port 3000 )
 
-### Code Splitting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+# ​			    THANK YOU
