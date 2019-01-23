@@ -24,23 +24,23 @@
 
 1. While starting our APP.
 
-​	![](E:\workspace\testproject\projectui\emptylist.PNG)
+​	![](emptylist.PNG)
 
 2. Notification push message.
 
-   ![](E:\workspace\testproject\projectui\pushmessage.PNG)
+   ![](pushmessage.PNG)
 
 3. List Items
 
-   ![](E:\workspace\testproject\projectui\listwithItem.PNG)
+   ![](listwithItem.PNG)
 
    4.Exception case
 
-   ![](E:\workspace\testproject\projectui\exceptionhandling.PNG) 
+   ![](exceptionhandling.PNG) 
 
    5. List overflow
 
-      ![](E:\workspace\testproject\projectui\overflow_list.PNG)
+      ![](overflow_list.PNG)
 
 ### (#NOTE : Don't change REACTJS project port,Because CORS Handled for port 3000 )
 
