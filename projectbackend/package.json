@@ -1,0 +1,38 @@
+{
+  "name": "Gateway",
+  "version": "1.0.0",
+  "description": "API-GATEWAY",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://vivek.r@stash.computenext.com/scm/services/authentication.git"
+  },
+  "keywords": [
+    "api",
+    "api-gateway",
+    "gateway",
+    "account",
+    "users",
+    "user"
+  ],
+  "author": "Computenext,Inc.",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.6.1",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "firebase": "^5.8.0",
+    "firebase-admin": "^6.5.0",
+    "joi": "^14.3.0",
+    "mysql": "^2.16.0",
+    "node-yaml-config": "0.0.4",
+    "path": "^0.12.7",
+    "socket.io": "^2.2.0",
+    "uuid": "^3.3.2"
+  }
+}

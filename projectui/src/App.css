@@ -1,0 +1,87 @@
+
+body{
+  background: #f5f4f4;
+}
+.App{
+  background: #f5f4f4;
+}
+.App-intro{
+  font-size: 25px;
+  font-weight: bold;
+  color: #575555;
+}
+.listview{
+  width: 40%;
+  height: 300px;
+  overflow: auto;
+  padding:5px;
+  border: 2px solid #3b3a3a;
+  margin: 5px;
+  border-radius: 5px;
+}
+.token-pane{
+  width: 40%;
+  height: 100px;
+  text-align: justify;
+  color: #3b3a3a;
+  font-size: 25px;
+  border-radius: 3px;
+}
+.list-item{
+  color: #f5f4f4;
+  background: #3b3a3a ;
+  border-radius: 5px;
+  margin: 3px;
+  padding: 10px;
+}
+.bold{
+  font-weight: bold;
+  font-size: 25px;
+}
+.btn{
+  outline: none;
+  border: 2px solid #3b3a3a ;
+  background: #ffffff;
+  color: #3b3a3a;
+  border-radius: 5px;
+  padding: 5px; 
+  font-size: 25px;
+  font-weight: bold; 
+  border-radius: 5px; 
+}
+.btn:active{
+  outline: none;
+  border: 2px solid #3b3a3a ;
+  background: #3b3a3a;
+  color: #ffffff;
+  padding: 5px;
+  font-size: 25px;
+  font-weight: bold; 
+  border-radius: 5px; 
+}
+
+.error{
+  background: #da2525;
+  color: #f5f4f4;
+  font-size: 18px;
+  padding: 5px;
+  text-shadow: 0px 0px 2px #3b3a3a;
+  width: 40%;
+}
+
+.success{
+  background: #28ac3e;
+  color: #f5f4f4;
+  font-size: 18px;
+  padding: 5px;
+  text-shadow: 0px 0px 2px #3b3a3a;
+  width: 40%;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

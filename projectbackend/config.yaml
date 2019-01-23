@@ -1,0 +1,4 @@
+default:
+  port: 1002
+  clienttoken : "clienttoken"
+  serverKey : "serverKey"
